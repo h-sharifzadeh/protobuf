@@ -88,7 +88,7 @@ private:
     bool m_freeze;
     GuiTimer *m_guiTimer;
     QHash<QString, QStandardItem*> m_items;
-    QHash<QString, QVector<QStandardItem *>> m_itemLookup;
+    QHash<QString, QVector<QStandardItem *> > m_itemLookup;
     QHash<QStandardItem*, Plot*> m_plots;
     QHash<QStandardItem*, Plot*> m_frozenPlots;
     QSet<QString> m_selection;
